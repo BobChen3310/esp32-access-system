@@ -45,7 +45,7 @@ def call_backend(endpoint: str, data: dict):
 # /start /help
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🚪 <b>IoT 門禁機器人</b>\n\n"
+        "🚪 <b>ESP32 門禁系統機器人</b>\n\n"
         "指令列表：\n"
         "/login - 開始綁定帳號\n"
         "/code - 輸入驗證碼\n"

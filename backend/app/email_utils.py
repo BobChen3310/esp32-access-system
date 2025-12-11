@@ -22,7 +22,7 @@ conf = ConnectionConfig(
 async def send_verification_code(email_to: EmailStr, code: str):
     html = f"""
     <div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
-        <h2 style="color: #2c3e50;">🚪 IoT 門禁系統驗證</h2>
+        <h2 style="color: #2c3e50;">🚪 ESP32 門禁系統驗證</h2>
         <p>您好，</p>
         <p>這是您的 Telegram 綁定驗證碼：</p>
         <h1 style="color: #3498db; letter-spacing: 5px; background: #f0f8ff; padding: 10px; text-align: center; border-radius: 5px;">{code}</h1>
@@ -31,7 +31,7 @@ async def send_verification_code(email_to: EmailStr, code: str):
     """
 
     message = MessageSchema(
-        subject="[IoT門禁] Telegram 綁定驗證碼",
+        subject="[ESP32 門禁] Telegram 綁定驗證碼",
         recipients=[email_to],
         body=html,
         subtype=MessageType.html
