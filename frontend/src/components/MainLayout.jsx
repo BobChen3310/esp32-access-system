@@ -89,7 +89,7 @@ const MainLayout = () => {
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
           <Typography variant="h6" noWrap component="div">
-            IoT 門禁管理系統
+            ESP32 門禁管理系統
           </Typography>
           
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
