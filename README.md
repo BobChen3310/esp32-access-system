@@ -185,6 +185,6 @@ CONFIG = {
 
 ## 外部連結
 
-可以到我的 Blog，查看實際的 Demo 影片
+可以到我的 Blog，查看實際的 Demo 影片與接線
 
-[Bob's Blog](https://blog.bob0623.net)
+- [Bob's Blog](https://blog.bob0623.net/posts/esp32-access-system-demo/)
